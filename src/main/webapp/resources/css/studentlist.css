@@ -1,0 +1,68 @@
+html, body, #container{
+	height:100%;
+}
+*{
+	margin:0;
+	padding:0;
+}
+#container{
+	min-width:800px;
+	max-width:1000px;
+	margin:auto;
+}
+#header{
+	height:80px;
+}
+
+#title{
+	float:left;
+	height:20px;
+	width:60%;
+	margin:10px 0px 0px 200px;
+	padding:10px;
+	border: 1px solid black;
+	background-color: white;
+}
+
+#logout{
+	float:right;
+	margin:10px 100px 0px 0px;
+}
+
+#btn {
+	margin:10px 0px 0px 200px;
+}
+
+button.btn{
+	padding: 7px 30px;
+	margin:10px 10px 0px 0px;
+  	font-size:13px;
+	text-align: center;  
+	border:1px solid black;
+}
+
+#tbl {
+	margin:50px 180px 0px 200px;
+}
+
+#form {
+	margin:50px 180px 200px 400px;
+}
+
+#main{
+	min-height:100%;
+	margin:0 0 -50px;
+	background-color:#CCCCCC;
+}
+
+.error {
+	color: #ff0000;
+	padding: 8px;
+	margin: 16px;
+}
+ 
+
+#footer{
+	height:50px;
+	background-color:#CCCCCC;
+}
